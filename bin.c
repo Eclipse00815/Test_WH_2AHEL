@@ -20,7 +20,7 @@ int power(int base, int exp) {                      // Die Funktion power wird a
 int main(int argc, char* argv[]) {                  // Hier wird eine main-Funktion angelegt. Das Character-Array usage_information wird abgerufen, wenn der User einen Eingabefehler macht.
     char* usage_information[] = "Usage: bin <binary number>; Binärzahlen bestehen nur aus den Zahlen 0 und 1. Bitte geben Sie eine Binärzahl an.";
     if (argv[0] > 1 || argv[0] < 1) {               // Dieses if sagt aus, dass wenn der User mehr als nur Zahl oder keine Zahl in der Kommandozeile angibt,
-        printf(usage_information);                  // die usage_information abgerufen werden soll
+        printf(usage_information);                  // die Usage Information abgerufen werden soll
         return -1;                                  // und das Programm abgebrochen werden soll.
     }
 
